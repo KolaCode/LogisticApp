@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Custom Css -->
     <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/plugins/footable-bootstrap/css/footable.bootstrap.min.css">
     <link rel="stylesheet" href="assets/plugins/footable-bootstrap/css/footable.standalone.min.css">
 
@@ -68,9 +69,10 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="users.html"><i class="zmdi zmdi-account"></i><span>Users</span></a></li>
+                <li><a href="users.html"><i class="zmdi zmdi-accounts"></i><span>Users</span></a></li>
                 <li><a href="profile.html"><i class="zmdi zmdi-account"></i><span>Profile</span></a></li>
-                <li><a href="create-vehicle.html"><i class="zmdi zmdi-account"></i><span>Create Vehicle</span></a></li>
+                <li><a href="create-vehicle.html"><i class="zmdi zmdi-car"></i><span>Create Vehicle</span></a></li>
+                <li><a href="trip-creation.html"><i class="zmdi zmdi-truck"></i><span>Trip Creation</span></a></li>
             </ul>
         </div>
     </aside>
@@ -81,8 +83,7 @@
             <div class="block-header">
                 <div class="row">
                     <div class="col-lg-7 col-md-6 col-sm-12">
-                        <h2 class="text-middle">USERS</h2>
-                        </ul>
+                        <h2 class="heading-text">USERS</h2>
                         <button class="btn btn-primary btn-icon mobile_menu" type="button"><i
                                 class="zmdi zmdi-sort-amount-desc"></i></button>
                     </div>
@@ -97,7 +98,7 @@
             <div class="container-fluid">
                 <div class="row clearfix">
                     <div class="col-lg-3 col-md-12">
-                        <div class="card mcard_3">
+                        <div class="mcard-3-alt card mcard_3">
                             <div class="body">
                                 <div class="row">
                                     <div class=" col-lg-4 text-left tag-sign"><span
@@ -501,48 +502,53 @@
                 <div class="modal-body">
                     <div class="row clearfix">
                         <div class="col-sm-6">
-                            <div class="form-group">
-                                <label class="form-label-text">Firstname</label>
-                                <input type="text" class="form-control" placeholder="Enter firstname">
+                            <label class="form-label-text">Firstname</label>
+                            <div class="form-group form-float">
+                                <input type="text" class="form-control" placeholder="Enter firstname" name="name" required="" aria-required="true" aria-invalid="true">
+                                <label id="name-error" class="error" for="name">This field is required.</label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <label class="form-label-text">Lastname</label>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Enter lastname">
+                            <div class="form-group form-float">
+                                <input type="text" class="form-control" placeholder="Enter lastname" name="name" required="" aria-required="true" aria-invalid="true">
+                                <label id="name-error" class="error" for="name">This field is required.</label>
                             </div>
                         </div>
                     </div>
                     <div class="row clearfix">
                         <div class="col-sm-12">
                             <label class="form-label-text">Email</label>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Enter email">
+                            <div class="form-group form-float">
+                                <input type="email" class="form-control" placeholder="Enter email" name="email" required="" aria-required="true" aria-invalid="true">
+                                <label id="name-error" class="error" for="email">This field is required.</label>
                             </div>
                         </div>
                     </div>
                     <div class="row clearfix">
                         <div class="col-sm-6">
                             <label class="form-label-text">Phone</label>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Enter phone">
+                            <div class="form-group form-float">
+                                <input type="number" class="form-control" placeholder="Enter phone" name="phone" required="" aria-required="true" aria-invalid="true">
+                                <label id="name-error" class="error" for="phone">This field is required.</label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <label class="form-label-text">Role</label>
-                            <select class="form-control">
+                            <select class="form-control" name="select" required="" aria-required="true" aria-invalid="true">
                                 <option selected disabled>Select a role</option>
                                 <option value="admin">Admin</option>
                                 <option value="adin">Supervisor</option>
                                 <option value="driver">Driver</option>
                             </select>
+                            <label id="name-error" class="error" for="select">This field is required.</label>
                         </div>
                     </div>
 
                     <div class="row clearfix">
                         <div class="col-sm-12">
                             <label class="form-label-text">Photo</label>
-                            <div class="form-group">
+                            <div class="form-group form-float">
                                 <input type="file" class="form-control" id="userPhoto">
                             </div>
                         </div>
@@ -568,7 +574,7 @@
     <!-- Jquery Core Js -->
     <script src="assets/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
     <script src="assets/bundles/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
-
+    <script src="assets/plugins/jquery-validation/jquery.validate.js"></script>
     <script src="assets/plugins/jquery-inputmask/jquery.inputmask.bundle.js"></script>
     <script src="assets/plugins/jquery-spinner/js/jquery.spinner.js"></script>
     <script src="assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
@@ -576,6 +582,8 @@
     <script src="assets/plugins/select2/select2.min.js"></script>
     <script src="assets/bundles/mainscripts.bundle.js"></script>
     <script src="assets/js/pages/forms/advanced-form-elements.js"></script>
+    <script src="assets/plugins/jquery-steps/jquery.steps.js"></script>
+    <script src="assets/js/pages/forms/form-validation.js"></script>
 
 
     <script src="assets/bundles/mainscripts.bundle.js"></script>

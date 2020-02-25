@@ -1,6 +1,27 @@
+/* .btn {
+    font-weight: 900 !important;
+} */
+
+.dropdown-menu {
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .15) !important;
+}
+
 .block-header-alt {
     height: 300px;
     background-color: black;
+}
+
+.block-header-alt2 {
+    margin-bottom: 0;
+    border-bottom: 1px solid #eee;
+    border-radius: 5px !important;
+    margin: 0 !important;
+    margin: 10px 15px !important;
+    padding: 0 !important;
+}
+
+.block-header-alt2 .btn {
+    margin-bottom: 20px !important;
 }
 
 .profile-container {
@@ -10,6 +31,33 @@
 
 .mb-50 {
     margin-bottom: 50px;
+}
+
+.p-20 {
+    padding: 20px !important;
+}
+
+.header-style-alt {
+    border-bottom: 1px #dfdfdf solid;
+}
+
+.header-text p{
+    margin-bottom: 0 !important;
+    padding: 15px 0;
+}
+
+.heading-text{
+    margin-bottom: 0 !important;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+.header-image {
+    padding: 10px 0;
+}
+
+.signin-signup-image img {
+    width: 900px;
 }
 
 .card-alt {
@@ -26,8 +74,15 @@
 .theme-blush .nav-tabs .nav-link.active {
     border-color: #00CE00;
     color: #00CE00;
-    border: 2px solid;
-    
+    border: 3px solid !important;
+}
+
+.theme-blush .nav-tabs .nav-link.active > svg {
+    fill: #00CE00 !important; 
+}
+
+.theme-blush .nav-tabs .nav-link > svg {
+    fill: #9B9B9B !important; 
 }
 
 .nav-item-alt a {
@@ -36,16 +91,278 @@
     font-size: 14px;
 }
 
-svg.nav-item-alt  {
-    fill: brown;
-}
-
 .vehicle-type {
     background: #fafafa;
-    padding: 20px;
+    padding: 20px 25px;
+    margin-bottom: 0;
 }
 
 .card .image {
-    width: 100px;;
+    width: 100px;
 }
 
+.remove-15px-padding {
+    padding-left: 0 !important;
+}
+
+.card-alt {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 20px,0,0,0 !important;
+}
+
+.page-body {
+    height: ;
+}
+
+.map-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.trip-details-card {
+    margin-top: 30px;
+}
+
+li.active.active-alt2 {
+    border-radius: 40px;
+    font-weight: 600;
+    background: #eff8ff !important;
+}
+
+.mail-side li:hover {
+    border-radius: 40px;
+}
+
+.mail-side li a {
+    color: #343a40 !important;
+}
+
+.list li a {
+    color: #343a40 !important;
+}
+
+li.active.active-alt {
+    border-radius: 40px;
+    font-weight: 600;
+    background: #eff8ff !important;
+}
+
+.mail-side-alt {
+    margin-top: 30px;
+}
+
+section.content {
+    background: #ffffff !important;
+    border: 1px solid #f3f1f1 !important;
+}
+
+.card.mcard_3 {
+    border: 1px solid #e8e8e8 !important;
+}
+
+.mcard-3-alt:hover {
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.11);
+-moz-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.11);
+box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.11);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.modal-content .modal-body {
+    overflow: auto;
+}
+
+.modal-content {
+padding: 0 !important;
+}
+
+.modal-body {
+    padding: 0 !important;
+}
+
+.modal-content-alt {
+padding: 25px;
+}
+
+@media (min-width: 922px){
+.modal-alt {
+    width: 600px !important;
+}
+}
+
+.bootstrap-select {
+    width: 100% !important;
+}
+
+.option-select .dropdown-toggle {
+    border: none !important;
+    padding: 0 0px 22px 0 !important;
+}
+
+.dropdown-toggle {
+    height: 0 !important;
+}
+.dropdown-toggle:after {
+    top: 10px !important;
+}
+
+.product-report-alt {
+    background-color: #FAFAFA;
+    padding-top: 20px;
+    margin: 10px 0 20px 0 !important;
+    border: 1px solid #eee;
+}
+
+.top-icons.zmdi {
+    font-size: 20px;
+}
+
+.first-icon {
+    color: #04BE5B !important;
+}
+.second-icon {
+    color: #c09516 !important;
+}
+.third-icon {
+    color: #0fa8b9 !important;
+}
+
+.product-report-icon-alt1 {
+    border-radius: 50% !important;
+    background: rgb(124, 221, 169);
+    border: 5px solid rgb(191, 235, 211);
+    width: 67px;
+    height: 52px;
+}
+.product-report-icon-alt2 {
+    border-radius: 50% !important;
+    background: rgb(231, 205, 124);
+    border: 5px solid rgb(235, 221, 179);
+    width: 67px;
+    height: 52px;
+}
+.product-report-icon-alt3 {
+    border-radius: 50% !important;
+    background: #7ecfd8;
+    border: 5px solid #b6dee2;
+    width: 67px;
+    height: 52px;
+}
+
+.trip-details-bottom-card1 {
+    background: #04BE5B !important;
+}
+.trip-details-bottom-card2 {
+    background: #ffc107 !important;
+}
+.trip-details-bottom-card3 {
+    background: #1cbfd0 !important;
+}
+
+.trip-details-bottom-card1 .light-text{
+    color: #FFF !important;
+}
+.trip-details-bottom-card2 .light-text{
+    color: #FFF !important;
+}
+.trip-details-bottom-card3 .light-text{
+    color: #FFF !important;
+}
+
+.truck-type-text {
+    color: #363636;
+    font-weight: 700;
+}
+
+.select2-container a {
+    color: #888 !important;
+}
+
+.select2-container a:hover {
+    color: #888 !important;
+}
+
+a.boxs-close {
+    color: #888 !important;
+}
+
+/* Responsive Styles*/
+
+@media only screen and (max-width: 768px) {
+    .inbox.left {
+        z-index: 9 !important;
+    }
+
+    .modal {
+        z-index: 10000 !important;
+    }
+
+    .modal-header .col-lg-2 {
+        width: 20%;
+    }
+    .modal-header .col-lg-10 {
+        width: 80%;
+    }
+
+    .nav-tabs>.nav-item>.nav-link {
+        margin: 0 !important;
+        padding: 10px !important;
+    }
+    .nav-tabs > .col-4 {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+
+    .mobile-left i.zmdi-more, .zmdi-sort-amount-desc {
+        position: relative;
+        top: 3px;
+        font-size: 30px !important;
+        color: #FFF !important;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+.block-header .col-lg-5.col-md-6.col-sm-12 {
+    display: block !important;
+}
+}
+
+.fullmap.modal-dialog {
+    max-width: 100%;
+    height: 100vh !important;
+    margin: 0;
+}
+
+.remove.for-map {
+    position: absolute !important;
+    top: 20px !important;
+    right: 20px !important;
+    z-index: 1000 !important;
+    background: #FFF;
+    border-radius: 50%;
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .15) !important;
+}
+
+.map-fullscreen-btn {
+    width: 60px;
+    height: 60px;
+    font-size: 20px !important;
+    border-radius: 50% !important;
+    background: #00CE00 !important;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .15) !important;
+    position: absolute !important;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000 !important;
+}
+
+.map-fullscreen-btn.btn i{
+    font-size: 32px !important;
+}
