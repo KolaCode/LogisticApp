@@ -1,0 +1,172 @@
+﻿<!doctype html>
+<html class="no-js " lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
+
+    <title>Profile</title>
+    <!-- Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link  rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+<!-- Morris Chart Css-->
+<link rel="stylesheet" href="assets/plugins/morrisjs/morris.css" />
+<!-- Colorpicker Css -->
+<link rel="stylesheet" href="assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css" />
+<!-- Multi Select Css -->
+<link rel="stylesheet" href="assets/plugins/multi-select/css/multi-select.css">
+<!-- Bootstrap Spinner Css -->
+<link rel="stylesheet" href="assets/plugins/jquery-spinner/css/bootstrap-spinner.css">
+<!-- Bootstrap Tagsinput Css -->
+<link rel="stylesheet" href="assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css">
+<!-- Bootstrap Select Css -->
+<link rel="stylesheet" href="assets/plugins/bootstrap-select/css/bootstrap-select.css" />
+<!-- noUISlider Css -->
+<link rel="stylesheet" href="assets/plugins/nouislider/nouislider.min.css" />
+<!-- Select2 -->
+<link rel="stylesheet" href="assets/plugins/select2/select2.css" />
+
+<!-- Custom Css -->
+<link rel="stylesheet" href="assets/css/style.min.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+
+
+<body class="theme-blush">
+    <div class="p-20 header-style-alt">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <img class="header-image" src="assets/images/logo.svg">
+                </div>
+                <div class="col-lg-6 col-sm-12 header-style-text-alt header-text">
+                    <p class="text-right">username@company.com <a class="link" href="#">Logout</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="m-t-30"><img class="zmdi-hc-spin" src="assets/images/loader.svg" width="48" height="48"
+                    alt="Logistic"></div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+
+    <!-- Main Content -->
+
+    <div class="container">
+        <div class="row">
+            <div class="row col-lg-8 center-content-alt" >
+                <div class="col-lg-4 col-sm-12 mr-5">
+                    <div class="card">
+                        <img src="assets/images/welcome.svg" alt="Sign Up" />
+                    </div>
+                </div>
+                <div class="col-lg-7 col-sm-12 signin-signup-form-adjustment">
+                    <div class="clearfix">
+                        <h5 class="col-lg-10 item-float-left">Welcome to Logistica</h5>
+                    </div>
+                    <p class="text-muted">We need a few more information to get started</p>
+                    <div>
+                        <img class="avatar" src="assets/images/avatar.svg">
+                    </div>
+                    <div class="clearfix">
+                        <div class="form-group">
+                            <label class="form-label-text">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your full name">
+                        </div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-sm-12">
+                            <label class="form-label-text">Company email address</label>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Enter email">
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="row clearfix">
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <label class="form-label-text">Company or organization name</label>
+                                <input type="text" class="form-control" placeholder="Enter company name">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <label class="form-label-text">Company Phone</label>
+                                <input type="text" class="form-control" placeholder="Enter phone">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                            <label class="form-label-text">Select your fleet size</label>
+                            <div class="select2-container form-control show-tick ms">
+                                <select class="option-select">
+                                    <option selected="">Select fleet size</option>
+                                    <option value="admin">Less than 10</option>
+                                    <option value="adin">10 - 20</option>
+                                    <option value="driver">21 - 50</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <label class="form-label-text">Select your industry</label>
+                            <select class="option-select form-control show-tick ms select2" data-placeholder="Select your industry">
+                                <option></option>
+                                <option>Agribusiness</option>
+                                <option>Auto Dealers</option>
+                                <option>Bars & Restaurants</option>
+                                <option>Builders/Residential</option>
+                                <option>Car Dealers</option>
+                                <option>Drug Manufacturers</option>
+                                <option>Energy & Natural Resources</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-primary btn-lg bg-green">GET STARTED</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+
+<!-- File upload -->
+<script>
+    function myFunction() {
+        var x = document.getElementById("userPhoto");
+        x.disabled = true;
+    }
+</script>
+
+<script src="assets/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js --> 
+<script src="assets/bundles/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js --> 
+
+<script src="assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script> <!-- Bootstrap Colorpicker Js --> 
+<script src="assets/plugins/jquery-inputmask/jquery.inputmask.bundle.js"></script> <!-- Input Mask Plugin Js --> 
+<script src="assets/plugins/multi-select/js/jquery.multi-select.js"></script> <!-- Multi Select Plugin Js --> 
+<script src="assets/plugins/jquery-spinner/js/jquery.spinner.js"></script> <!-- Jquery Spinner Plugin Js --> 
+<script src="assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script> <!-- Bootstrap Tags Input Plugin Js --> 
+<script src="assets/plugins/nouislider/nouislider.js"></script> <!-- noUISlider Plugin Js -->
+
+<script src="assets/plugins/select2/select2.min.js"></script> <!-- Select2 Js -->
+
+<script src="assets/bundles/mainscripts.bundle.js"></script><!-- Custom Js --> 
+<script src="assets/js/pages/forms/advanced-form-elements.js"></script> 
+</body>
+
+</html>

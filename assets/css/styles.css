@@ -6,10 +6,6 @@
     box-shadow: 0 4px 5px rgba(0, 0, 0, .15) !important;
 }
 
-.block-header-alt {
-    height: 300px;
-    background-color: black;
-}
 
 .block-header-alt2 {
     margin-bottom: 0;
@@ -24,9 +20,9 @@
     margin-bottom: 20px !important;
 }
 
-.profile-container {
+.center-content-alt {
     margin: auto;
-    top: -100px;
+    top: 100px;
 }
 
 .mb-50 {
@@ -153,13 +149,18 @@ li.active.active-alt {
     margin-top: 30px;
 }
 
+section.content-alt{
+    margin-left: 20px !important;
+}
+
 section.content {
     background: #ffffff !important;
     border: 1px solid #f3f1f1 !important;
 }
 
 .card.mcard_3 {
-    border: 1px solid #e8e8e8 !important;
+    background: #FFF;
+    padding: 40px;
 }
 
 .mcard-3-alt:hover {
@@ -366,3 +367,23 @@ a.boxs-close {
 .map-fullscreen-btn.btn i{
     font-size: 32px !important;
 }
+
+img.google-btn {
+    width: 250px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fafafa;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .checkbox label::before {
+    top: -5px !important;
+  }
+  .checkbox label::after {
+    top: -5px !important;
+  }
